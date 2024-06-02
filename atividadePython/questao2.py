@@ -1,6 +1,6 @@
 vl_int = 4
 vl_float = 28.08
-vl_string = 'palavra'
+vl_string = 'texto'
 vl_bool = True
 print(f'{vl_int} é do tipo {type(vl_int)}.')
 print(f'{vl_float} é do tipo {type(vl_float)}.')
