@@ -1,4 +1,7 @@
-n = 0 
+n = 0
 while n <=8000:
-    print(f"{n}")
+    if n == 0:
+        print(1)
+    else:
+        print(f"{n}")
     n += 10
