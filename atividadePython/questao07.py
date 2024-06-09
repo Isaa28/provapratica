@@ -1,4 +1,4 @@
-aluno = input("Digite o nome do aluno:")
+nome = input("Digite o nome do aluno:")
 disciplina = input("Digite o nome da disciplina:")
 n1 = int(input("Digite a primeira nota:"))
 n2 = int(input("Digite a segunda nota:"))
@@ -7,4 +7,4 @@ if m <6:
     situação = 'reprovado(a)'
 else:
     situação = 'aprovado(a)'
-print(f"{aluno} está {situação} na disciplina {disciplina}.")
+print(f"{nome} está {situação} na disciplina {disciplina}.")
